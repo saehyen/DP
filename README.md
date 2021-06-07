@@ -32,7 +32,7 @@
 - ai-k를 만드는 방법이 존재하지 않을 경우 ai = 10,001
 - 이 식을 DP로 구성하는 것은 쉽지 않다.
 - for i in range(n):
--    for j in range(array[i], m+1):
--        if d[j-array[i]] != 10001 :
--            d[j]= min(d[j],d[j- array[i]] + 1)
+- for j in range(array[i], m+1):
+- if d[j-array[i]] != 10001 :
+- d[j]= min(d[j],d[j- array[i]] + 1)
 - (이해하기 위해 여러번 읽어볼것) 마지막 리딩기록 : 2021.06.08
